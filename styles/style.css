@@ -1,0 +1,92 @@
+:root {
+    --clr-black: #0a0a0a;
+    --clr-light-black: #0f172a;
+    --clr-white: #f8fafc;
+    --clr-light-blue: #3b82f6;
+    --clr-yellow: #fbbf24;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "Poppins", Arial, sans-serif;
+    background-color: var(--clr-black);
+    color: var(--clr-white);
+    background-image: url("../assets/background-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: var(--clr-light-black);
+    border-radius: 10px;
+    margin-top: 105px;
+    opacity: .8;
+}
+
+.weather-app-title {
+    font-size: 1.8rem;
+    color: var(--clr-yellow);
+}
+
+.search {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.input-field {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    border: none;
+}
+
+.input-field:focus {
+    outline: none;
+}
+
+.searchButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    background-color: var(--clr-yellow);
+    color: var(--clr-white);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.temperature {
+    font-size: 2rem;
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    margin-top: 20px;
+}
+
+/* Add more styles as needed */
