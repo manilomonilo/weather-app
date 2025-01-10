@@ -1,4 +1,7 @@
-this is a simple weather application that i made for applying my skilles javascript, wish you give any feedback specialy on the js part if you and what can i improve.
+This is a simple weather application that i made to apply, Wish you give any feedback specialy on the js part if you see it and tell me what can i improve.
 
-[live link]()
+[live link](https://manilomonilo.github.io/weather-app/)
+
+# the UI appearance
+![appearance](assets/app-ui.png)
 
